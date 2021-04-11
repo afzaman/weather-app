@@ -11,8 +11,7 @@ ODIN Project Weather App
 
 ## Live Demo
 
-[To-Do List](https://afzaman.github.io/weather-app)
-
+[Weather App](https://afzaman.github.io/weather-app)
 
 ## Getting Started
 
