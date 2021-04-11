@@ -31,7 +31,7 @@ function render(currentWeather) {
 
 async function getWeather(location) {
     try {
-        const response = await fetch('http://api.openweathermap.org/data/2.5/weather?q=' + location + '&units=' + units + '&APPID=' + WEATHERAPIKEY, {mode: 'cors'})
+        const response = await fetch('https://api.openweathermap.org/data/2.5/weather?q=' + location + '&units=' + units + '&APPID=' + WEATHERAPIKEY, {mode: 'cors'})
         const weatherData = await response.json()
         currentWeather = {
             name: weatherData.name,
