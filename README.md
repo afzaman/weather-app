@@ -1,7 +1,7 @@
 # Weather-app
 ODIN Project Weather App
 
-### This is a weather app built for the Odin Porject's Javascript Track
+### This is a weather app built for the Odin Project's Javascript Track
 
 ## Built With 
 
