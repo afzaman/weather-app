@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="header" data-header>
+      </div>
+      <div class="content">
+        <div class="general-information">
+          <div class="status"data-location-container>Enter a Location</div>
+          <div class="location" data-weather-container>To Find The Weather</div>
+        </div>
+        <div class="detail-section">
+          <div class="detail">
+            <div class="title">Wind</div>
+            <div class="value" data-wind-container>TBD</div>
+          </div>
+          <div class="detail bordered" data-units-button>
+            <div class="title">Temperature</div>
+            <div class="value"data-temp-container>TBD</div>
+            
+          </div>
+          <div class="detail">
+            <div class="title">Precipitation</div>
+            <div class="value" data-precip-container>TBD</div>
+          </div>
+        </div>
+        <small class="unit-change-instructions">click to change units</small>
+        <div class="city-search-container">
+          <input type="text" class="city-search" placeholder="Search for a city" data-location-search>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./index.js"></script>
+</html>
