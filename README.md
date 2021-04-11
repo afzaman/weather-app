@@ -1,7 +1,5 @@
-# weather-app
+# Weather-app
 ODIN Project Weather App
-
-# To-Do List
 
 ### This is a weather app built for the Odin Porject's Javascript Track
 
